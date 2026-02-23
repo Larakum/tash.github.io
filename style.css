@@ -1,0 +1,163 @@
+/* Основные настройки для html и body */
+html, body {
+  height: 100%;
+}
+
+/* Заголовок h1 в шапке */
+header h1 {
+  text-align: center;
+  text-decoration: line-through;
+}
+
+/* Подзаголовок h2 в шапке */
+header h2 {
+  text-align: center;
+  margin-top: -22px;  
+  color: black;
+}
+
+/* Общие стили для шапки сайта */
+header {
+  margin-top: -22px;  
+  width: auto;
+  margin-left: -8px;
+  margin-right: -8px;
+  color: white;
+  /* Градиент фона шапки */
+  background: linear-gradient(to bottom, black, white);
+}
+
+/* Основная область сайта */
+main {
+  width: 100%;
+  margin-left: -8px;
+  margin-top: -8px; 
+  background-color: white;
+  flex: 1;
+}
+
+/* Основной информационный блок */
+.blockos-1 {
+  background-color: rebeccapurple;
+  margin-left: 75px;
+}
+
+/* Теневая подложка для первого блока */
+.shadow-1 {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-right: 10px;
+  margin-left: 85px;
+  margin-bottom: -315px;
+}
+
+/* Flex-контейнер для вертикального расположения элементов */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Общие стили для секций внутри main */
+main section {
+  width: 1350px;
+  height: 260px;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+/* Блок с хобби */
+.blockos-2 {
+  background-color: rebeccapurple;
+  margin-left: 75px;
+}
+
+/* Теневая подложка для блока хобби */
+.shadow-2 {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-right: 10px;
+  margin-left: 85px;
+  margin-bottom: -315px;
+}
+
+/* Блок со скиллами */
+.blockos-3 {
+  background-color: rebeccapurple;
+  margin-left: 775px;
+}
+
+/* Теневая подложка для блока со скиллами */
+.shadow-3 {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-right: 10px;
+  margin-top: -245px; 
+  margin-left: 785px;
+  margin-bottom: -315px; 
+}
+
+/* Общие стили для aside-блоков */
+main aside {
+  width: 650px;
+  height: 260px;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+/* Подвал сайта */
+footer {  
+  width: auto;
+  margin-left: -8px;
+  margin-right: -8px;
+  color: white;
+  /* Градиент фона подвала */
+  background: linear-gradient(to bottom, white, black);
+  margin-top: 30px;
+}
+
+/* Основной текст внутри main */
+main p {
+  margin-left: 20px;
+  font-size: 25px;
+  margin-top: -10px;
+}
+
+/* Ссылки внутри main */
+main a {
+  color: yellow;
+}
+
+/* Ссылки при наведении */
+main a:hover {
+  color: blue;
+}
+
+/* Списки внутри main */
+main ul {
+  font-size: 25px;
+  margin-top: -20px;
+}
+
+/* Изображения внутри aside */
+aside img {
+  margin-left: 3px;
+  padding-bottom: 10px;
+}
+
+/* Общие стили для progress-бара */
+progress {
+  position: relative; 
+  border: none;
+  bottom: 24px;
+  width: 150px;
+  height: 10px;
+}
+
+/* Фон progress-бара*/
+progress::-webkit-progress-bar {
+  background-color: black;
+  border-radius: 10px;
+}
+
+/* Заполненная часть progress-бара */
+progress::-webkit-progress-value {
+  background-color: yellow;
+  border-radius: 10px;
+}
